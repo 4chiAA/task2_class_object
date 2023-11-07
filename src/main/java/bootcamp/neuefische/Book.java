@@ -2,9 +2,9 @@ package bootcamp.neuefische;
 
 public class Book {
 
-    String title;
-    String author;
-    String isbn;
+    private String title;
+    private String author;
+    private String isbn;
 
     public Book(){
 
@@ -43,9 +43,9 @@ public class Book {
     @Override
     public String toString() {
         return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", isbn='" + isbn + '\'' +
+                "title= '" + title + '\'' +
+                ", author= '" + author + '\'' +
+                ", isbn= '" + isbn + '\'' +
                 '}';
     }
 }

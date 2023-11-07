@@ -16,7 +16,7 @@ public class Library {
     @Override
     public String toString() {
         return "Library{" +
-                "books=" + Arrays.toString(books) +
+                "Books: " + Arrays.toString(books) +
                 '}';
     }
 }
